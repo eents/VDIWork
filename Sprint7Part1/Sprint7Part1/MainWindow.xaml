@@ -22,8 +22,11 @@
 
             <StackPanel Orientation="Horizontal">
                 <Label>Weight</Label>
+                <Slider x:Name="slWeight" Width="120" Value="{Binding Path=Weight}"></Slider>
                 <TextBlock x:Name="tbWeight" VerticalAlignment="Center" Text="{Binding Path=Weight}" />
             </StackPanel>
+
+            <Label x:Name="lbAbout" Content="{Binding Path=AboutString}"></Label>
 
         </StackPanel>
         
