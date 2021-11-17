@@ -9,8 +9,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <Views:UserControlMammal x:Name="ucMammal1"></Views:UserControlMammal>
-            <Views:UserControlMammal x:Name="ucMammal2"></Views:UserControlMammal>
+            <Views:UserControlMammal x:Name="ucMammal1" Loaded="ucMammal1_Loaded"></Views:UserControlMammal>
+            <Views:UserControlMammal x:Name="ucMammal2" Loaded="ucMammal2_Loaded"></Views:UserControlMammal>
         </StackPanel>
     </Grid>
 </Window>
