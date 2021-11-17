@@ -26,27 +26,6 @@ namespace WPFUserControl2
         public MainWindow()
         {
             InitializeComponent();
-            mam = new Dog();
-            UpdateMammalUI();
-        }
-
-        public void UpdateMammalUI()
-        {
-            tbName.Text = mam.Name;
-            tbAge.Text = mam.Age.ToString();
-            tbWeight.Text = mam.Weight.ToString();
-        }
-
-        private void btnFeed_Click(object sender, RoutedEventArgs e)
-        {
-            mam.Weight++;
-            UpdateMammalUI();
-        }
-
-        private void btnWalk_Click(object sender, RoutedEventArgs e)
-        {
-            mam.Weight--;
-            UpdateMammalUI();
         }
     }
 }

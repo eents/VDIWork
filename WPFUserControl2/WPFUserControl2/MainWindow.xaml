@@ -7,27 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblName">Name</Label>
-                <Separator Margin="10"></Separator>
-                <TextBlock x:Name="tbName" VerticalAlignment="Center">Fido</TextBlock>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblAge">Age</Label>
-                <Separator Margin="10"></Separator>
-                <TextBlock x:Name="tbAge" VerticalAlignment="Center">2</TextBlock>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblWeight">Weight</Label>
-                <Separator Margin="10"></Separator>
-                <TextBlock x:Name="tbWeight" VerticalAlignment="Center">10</TextBlock>
-            </StackPanel>
-
-            <Button x:Name="btnFeed" Click="btnFeed_Click">Feed</Button>
-            <Button x:Name="btnWalk" Click="btnWalk_Click">Walk</Button>
-        </StackPanel>
+        
     </Grid>
 </Window>
