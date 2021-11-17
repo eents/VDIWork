@@ -27,5 +27,17 @@ namespace WPFUserControl2
         {
             InitializeComponent();
         }
+
+        private void ucMammal1_Loaded(object sender, RoutedEventArgs e)
+        {
+            ucMammal1.mam = new Dog() {Name = "Dog1", Weight = 50, Age = 4 };
+            ucMammal1.UpdateMammalUI();
+        }
+
+        private void ucMammal2_Loaded(object sender, RoutedEventArgs e)
+        {
+            ucMammal2.mam = new Cat() { Name = "Cat1", Weight = 5, Age = 1 };
+            ucMammal2.UpdateMammalUI();
+        }
     }
 }

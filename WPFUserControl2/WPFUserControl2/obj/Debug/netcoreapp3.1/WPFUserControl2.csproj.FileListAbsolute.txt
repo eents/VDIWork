@@ -20,3 +20,6 @@ C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debu
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\bin\Debug\netcoreapp3.1\WPFDogLibrary.dll
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\bin\Debug\netcoreapp3.1\WPFDogLibrary.pdb
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\WPFUserControl2.csproj.CopyComplete
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\Views\UserControlMammal.g.cs
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\Views\UserControlMammal.baml

@@ -19,12 +19,13 @@ namespace WPFUserControl2.Views
     /// </summary>
     public partial class UserControlMammal : UserControl
     {
-        IMammal mam;
+        public IMammal mam;
 
         public UserControlMammal()
         {
             InitializeComponent();
             mam = new Dog();
+
             UpdateMammalUI();
         }
 

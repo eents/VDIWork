@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFUserControl2"
         mc:Ignorable="d"
+        xmlns:Views="clr-namespace:WPFUserControl2.Views"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Views:UserControlMammal x:Name="ucMammal1"></Views:UserControlMammal>
+            <Views:UserControlMammal x:Name="ucMammal2"></Views:UserControlMammal>
+        </StackPanel>
     </Grid>
 </Window>
