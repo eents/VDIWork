@@ -4,7 +4,13 @@ using System.Text;
 
 namespace WPFDogLibrary
 {
-    class Cat : Mammal
+    public class Cat : Mammal
     {
+        public Cat()
+        {
+            this.Name = "Milo";
+            this.Age = 3;
+            this.Weight = 11;
+        }
     }
 }

@@ -10,4 +10,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WPFDogLibrary\WPFDogLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

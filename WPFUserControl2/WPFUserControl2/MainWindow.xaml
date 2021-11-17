@@ -25,6 +25,9 @@
                 <Separator Margin="10"></Separator>
                 <TextBlock x:Name="tbWeight" VerticalAlignment="Center">10</TextBlock>
             </StackPanel>
+
+            <Button x:Name="btnFeed" Click="btnFeed_Click">Feed</Button>
+            <Button x:Name="btnWalk" Click="btnWalk_Click">Walk</Button>
         </StackPanel>
     </Grid>
 </Window>

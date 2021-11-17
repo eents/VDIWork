@@ -1,0 +1,9 @@
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\bin\Debug\netcoreapp3.1\WPFDogLibrary.deps.json
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\bin\Debug\netcoreapp3.1\WPFDogLibrary.dll
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\bin\Debug\netcoreapp3.1\WPFDogLibrary.pdb
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.csproj.AssemblyReference.cache
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.AssemblyInfoInputs.cache
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.AssemblyInfo.cs
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.csproj.CoreCompileInputs.cache
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.dll
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFDogLibrary\obj\Debug\netcoreapp3.1\WPFDogLibrary.pdb

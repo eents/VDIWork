@@ -17,3 +17,6 @@ C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debu
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\WPFUserControl2.dll
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\WPFUserControl2.pdb
 C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\WPFUserControl2.genruntimeconfig.cache
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\bin\Debug\netcoreapp3.1\WPFDogLibrary.dll
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\bin\Debug\netcoreapp3.1\WPFDogLibrary.pdb
+C:\Users\291669\Desktop\EricVDI\VDIWork\WPFUserControl2\WPFUserControl2\obj\Debug\netcoreapp3.1\WPFUserControl2.csproj.CopyComplete
