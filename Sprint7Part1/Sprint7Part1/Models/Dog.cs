@@ -31,6 +31,8 @@ namespace Sprint7Part1.Models
             set
             {
                 name = value;
+                OnPropertyChanged();
+                OnPropertyChanged("AboutString");
             }
         }
 
