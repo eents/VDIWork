@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sprint7Part1.Models;
 
 namespace Sprint7Part1
 {
@@ -20,9 +21,15 @@ namespace Sprint7Part1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        Dog d;
+
         public MainWindow()
         {
             InitializeComponent();
+            d = new Dog();
+
+            this.DataContext = d;
         }
     }
 }
