@@ -8,5 +8,24 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label>Name</Label>
+                <TextBox x:Name="tbName" VerticalAlignment="Center" Text="{Binding Path=Name}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label>Age</Label>
+                <TextBlock x:Name="tbAge" VerticalAlignment="Center" Text="{Binding Path=Age}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label>Weight</Label>
+                <TextBlock x:Name="tbWeight" VerticalAlignment="Center" Text="{Binding Path=Weight}" />
+            </StackPanel>
+
+        </StackPanel>
+        
     </Grid>
 </Window>
