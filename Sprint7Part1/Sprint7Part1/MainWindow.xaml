@@ -18,6 +18,7 @@
             <StackPanel Orientation="Horizontal">
                 <Label>Age</Label>
                 <TextBlock x:Name="tbAge" VerticalAlignment="Center" Text="{Binding Path=Age}" />
+                <Button x:Name="btnHappyBirthday">Happy Birthday!</Button>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">

@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Sprint7Part1.Models;
+using Sprint7Part1.ViewModels;
 
 namespace Sprint7Part1
 {
@@ -23,13 +24,16 @@ namespace Sprint7Part1
     {
 
         Dog d;
+        DogViewModel vm;
+
 
         public MainWindow()
         {
             InitializeComponent();
             d = new Dog();
+            vm = new DogViewModel(d);
 
-            this.DataContext = d;
+            this.DataContext = vm;
         }
     }
 }

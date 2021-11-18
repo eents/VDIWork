@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace Sprint7Part1.Models
 {
-    class Dog : INotifyPropertyChanged
+    class Dog
     {
         public int Age { get; set; }
 
@@ -18,8 +18,6 @@ namespace Sprint7Part1.Models
             set
             {
                 weight = value;
-                OnPropertyChanged();
-                OnPropertyChanged("AboutString");
             }
         }
 
@@ -31,8 +29,6 @@ namespace Sprint7Part1.Models
             set
             {
                 name = value;
-                OnPropertyChanged();
-                OnPropertyChanged("AboutString");
             }
         }
 
@@ -48,18 +44,9 @@ namespace Sprint7Part1.Models
             this.Name = "Daisy";
         }
 
-        public string AboutString { get => About(); }
-
         public string About()
         {
             return $"Hello my name is {Name}. I am {Age} years old and I weigh {Weight} pounds.";
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        private void OnPropertyChanged([CallerMemberName] String propertyName = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
