@@ -26,17 +26,26 @@ namespace Sprint7Part1.ViewModels
             return true;
         }
 
-        private void ExecuteHappyBirthday(object parameter)
-        {
-            throw new NotImplementedException();
-        }
+        protected int age;
 
         public int Age
         {
             get
             {
-                return d.Age;
+                return this.age = d.Age;
             }
+            set
+            {
+                this.age = value;
+            }
+        }
+
+        private void ExecuteHappyBirthday(object parameter)
+        {
+            this.d.HappyBirthday();
+            Age = this.d.Age;
+            OnPropertyChanged("Age");
+            OnPropertyChanged("AboutString");
         }
 
         public int Weight
