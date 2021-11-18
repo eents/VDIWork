@@ -5,7 +5,7 @@ using System.Windows.Input;
 
 namespace Sprint7Part1.ViewModels
 {
-    class BasicCommand : ICommand
+    public class BasicCommand : ICommand
     {
         public delegate void ICommandonExecute(object parameter);
         public delegate bool ICommandcanExecute(object parameter);

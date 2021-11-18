@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Windows.Input;
 using Sprint7Part1.Models;
 
 namespace Sprint7Part1.ViewModels
@@ -12,9 +13,22 @@ namespace Sprint7Part1.ViewModels
 
         Dog d;
 
+        public ICommand HappyBirthdayCommand { get; set; }
+
         public DogViewModel(Dog dog)
         {
             this.d = dog;
+            HappyBirthdayCommand = new BasicCommand(ExecuteHappyBirthday, CanExecuteHappyBirthday);
+        }
+
+        private bool CanExecuteHappyBirthday(object parameter)
+        {
+            return true;
+        }
+
+        private void ExecuteHappyBirthday(object parameter)
+        {
+            throw new NotImplementedException();
         }
 
         public int Age
